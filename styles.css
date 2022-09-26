@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/ba1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.hero_text {
+  color: white;
+}
+
+.hero_text p {
+  width: 50%;
+}
+
+.localidad_image {
+  width: 100%;
+}
+.localidad_text {
+  background-color: #3d4447;
+}
+
+.orador_section {
+  width: 50%;
+}
+
+.boton_formulario {
+  background-color: #96c93e;
+}
+.boton_formulario:hover {
+  background-color: #709630;
+}
+
+footer {
+  background: rgb(26, 54, 68);
+  background: linear-gradient(90deg, rgba(26, 54, 68, 1) 0%, rgba(28, 83, 114, 1) 100%);
+}
