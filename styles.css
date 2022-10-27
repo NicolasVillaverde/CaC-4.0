@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .hero_section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/ba1.jpg");
   background-size: cover;
@@ -40,4 +45,10 @@
 footer {
   background: rgb(26, 54, 68);
   background: linear-gradient(90deg, rgba(26, 54, 68, 1) 0%, rgba(28, 83, 114, 1) 100%);
+  bottom: 0;
+}
+
+.wrapper {
+  padding-top: 1rem;
+  height: 80%;
 }
