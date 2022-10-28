@@ -29,10 +29,10 @@ function calcularTotal() {
 }
 
 function borrar() {
-  document.getElementById("inputNombre").value = " ";
-  document.getElementById("inputApellido").value = " ";
-  document.getElementById("inputEmail").value = " ";
-  document.getElementById("inputCantidad").value = " ";
+  document.getElementById("inputNombre").value = "";
+  document.getElementById("inputApellido").value = "";
+  document.getElementById("inputEmail").value = "";
+  document.getElementById("inputCantidad").value = "";
   document.getElementById("inputCategoria").value = "Estudiante";
   document.getElementById("importeTotal").innerHTML = "Total a Pagar: \u0024";
 }
